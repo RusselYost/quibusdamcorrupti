@@ -1,0 +1,28 @@
+{
+  "name": "quibusdamcorrupti",
+  "workspaces": [
+    "./packages/*"
+  ],
+  "scripts": {
+    "install-m1-mac": "yarn install --ignore-optional",
+    "format": "prettier --write 'packages/**/*.ts'",
+    "dev": "yarn wsrun dev",
+    "build": "yarn wsrun build",
+    "type-check": "yarn wsrun type-check"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "prettier-plugin-svelte": "^2.4.0",
+    "typescript": "^4.5.5",
+    "wsrun": "^5.2.4"
+  },
+  "author": "DarrinOrtiz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RusselYost/quibusdamcorrupti.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RusselYost/quibusdamcorrupti.git/issues"
+  },
+  "version": "1.0.0"
+}
